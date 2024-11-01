@@ -24,11 +24,10 @@
 
 <div style="page-break-after: always;"></div>
 
-#### 流程圖
+#### 系統架構圖
+![流程圖](https://github.com/user-attachments/assets/36e8d200-c5c7-4daa-9b14-27e9649e65fb)
 
-![流程圖-1](https://github.com/user-attachments/assets/754779c6-fc83-469c-a3a1-458f0eb37e2d)
 
-<div style="page-break-after: always;"></div>
 
 #### 前置作業
 
@@ -54,27 +53,33 @@
   - 計算上述數據資料的日、周、月、季以及半年報酬率作為回測結果。
   - 將回測結果輸出為CSV文件。 
 
+<div style="page-break-after: always;"></div>
+
 #### 產業分析：
   - 讀取報酬率CSV文件，並使用`Pandas`將其轉換為`DataFrame`進行處理。
   - 根據產業對數據進行分組計算，計算每個產業在不同持有期內的平均報酬率和標準差，並統計樣本數。
+
+<div style="page-break-after: always;"></div>
 
 #### 結果可視化： 
 
    - 使用`Matplotlib`繪製圖表，展示各產業在不同持有期內的平均報酬率及其標準差，可直觀分析結果。
    - 將統計結果輸出為新的`CSV`文件，便於後續的深入分析和報告撰寫。 
 
-![a day_mean_std_sorted-1](https://github.com/user-attachments/assets/c238ffaf-ebd4-46a8-b9d4-1ccbfe68768b)
-![a week_mean_std_sorted-1](https://github.com/user-attachments/assets/f73d373a-0bd9-42dc-bfc3-0c80ad86d577)
-![a month_mean_std_sorted-1](https://github.com/user-attachments/assets/f1675d3f-4cf1-4872-86d5-39eae85e7741)
-![one season_mean_std_sorted-1](https://github.com/user-attachments/assets/403caeb3-7753-415b-b3e0-467ffa615c52)
-![half a year_mean_std_sorted-1](https://github.com/user-attachments/assets/e487d704-4c7a-4a6c-bdb7-f1e07e69c826)
+![a day_mean_std_sorted-1](https://github.com/user-attachments/assets/98823948-363e-4b15-b5b6-8b2146bdeb5a)
+![a week_mean_std_sorted-1](https://github.com/user-attachments/assets/a7ac2c75-4dbe-49cb-b3e9-62afa5d66c47)
+![a month_mean_std_sorted-1](https://github.com/user-attachments/assets/4bf33e33-d730-4d93-ad99-8d1c94918b3e)
+![one season_mean_std_sorted-1](https://github.com/user-attachments/assets/b7c00197-a146-46e0-a5b1-7b75a2cc79eb)
+![half a year_mean_std_sorted-1](https://github.com/user-attachments/assets/e31e3df1-fbf1-44e5-a0c0-e5cab048b6e5)
+
+
 
 
 
 #### 結果分析
-- 總體概況： 我們對多個產業的IPO股票在不同持有期（當日、一週、一個月、一季、半年）內的平均報酬率及標準差進行了回測分析，以探討最佳投資持有時間。
+ 1. 總體概況： 我們對多個產業的IPO股票在不同持有期（當日、一週、一個月、一季、半年）內的平均報酬率及標準差進行了回測分析，以探討最佳投資持有時間。
 
-- 行業表現分析：
+ 2. 行業表現分析：
 
 - 紡織纖維
 
@@ -86,7 +91,8 @@
 
 - 電子零組件業
 
-  - 當日平均報酬率為5.70%，隨著持有期延長，一個月的平均報酬率達到9.58%。這反映出該行業在短期內具備一定的增值空間。
+  - 當日平均報酬率為5.70%，隨著持有期延長，一個月的平均報酬率達到9.58%。
+  這反映出該行業在短期內具備一定的增值空間。
 
 - 電腦及週邊設備業
 
@@ -106,7 +112,7 @@
 
 - 電子通路業
 
-  -當日平均報酬率為6.73%，一週內上升至7.70%，但半年持有期報酬率顯著下降至-17.98%，顯示出短期內收益較高，長期持有風險較大。
+  - 當日平均報酬率為6.73%，一週內上升至7.70%，但半年持有期報酬率顯著下降至-17.98%，顯示出短期內收益較高，長期持有風險較大。
 
 - 食品工業
 
@@ -144,8 +150,17 @@
 
   - 當日報酬率為-9.53%，半年內報酬率為-3.94%，表現不佳。
 
-- 結論
- - 從本研究的回測結果可得出以下結論：
+#### 結論
+ - 本研究的回測結果可得出以下結論：
+
    不同行業的IPO股票在不同持有期內的收益和風險顯著不同。電子零組件業、電腦及週邊設備業和資訊服務業在長期持有中顯示出較高的收益，而觀光餐旅業和電子通路業則在短期內表現更佳。
    數據顯示出波動性較大的行業在短期投資中可能更具吸引力，而穩定增長的行業則適合長期投資策略。
    投資者應根據行業特性及市場情況調整投資持有期，以達到最佳收益。
+
+
+
+
+
+
+
+
