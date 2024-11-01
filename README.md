@@ -63,11 +63,13 @@
    - 使用`Matplotlib`繪製圖表，展示各產業在不同持有期內的平均報酬率及其標準差，可直觀分析結果。
    - 將統計結果輸出為新的`CSV`文件，便於後續的深入分析和報告撰寫。 
 
-![alt text](<a day_mean_std_sorted-1.png>)
-![alt text](<a week_mean_std_sorted-1.png>)
-![alt text](<a month_mean_std_sorted-2.png>)
-![alt text](<one season_mean_std_sorted-1.png>)
-![alt text](<half a year_mean_std_sorted-1.png>)
+![a day_mean_std_sorted-1](https://github.com/user-attachments/assets/c238ffaf-ebd4-46a8-b9d4-1ccbfe68768b)
+![a week_mean_std_sorted-1](https://github.com/user-attachments/assets/f73d373a-0bd9-42dc-bfc3-0c80ad86d577)
+![a month_mean_std_sorted-1](https://github.com/user-attachments/assets/f1675d3f-4cf1-4872-86d5-39eae85e7741)
+![one season_mean_std_sorted-1](https://github.com/user-attachments/assets/403caeb3-7753-415b-b3e0-467ffa615c52)
+![half a year_mean_std_sorted-1](https://github.com/user-attachments/assets/e487d704-4c7a-4a6c-bdb7-f1e07e69c826)
+
+
 
 #### 結果分析
 - 總體概況： 我們對多個產業的IPO股票在不同持有期（當日、一週、一個月、一季、半年）內的平均報酬率及標準差進行了回測分析，以探討最佳投資持有時間。
