@@ -76,7 +76,8 @@
 
 #### 結果分析
 
-![表格數據](https://github.com/user-attachments/assets/831bf5b3-804a-4ca5-871b-080791227cf9)
+![表格數據](https://github.com/user-attachments/assets/e45f6e30-fe90-4dad-8058-427aa2596726)
+
 
 
  1. 總體概況： 我們對多個產業的IPO股票在不同持有期（當日、一週、一個月、一季、半年）內的平均報酬率及標準差進行了回測分析，以探討最佳投資持有時間。
